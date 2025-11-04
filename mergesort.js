@@ -30,3 +30,10 @@ function merge(left, right) {
   // Add remaining elements (if any)
   return sorted.concat(left.slice(i)).concat(right.slice(j));
 }
+
+// Test cases
+console.log("mergeSort([]) →", mergeSort([])); // []
+console.log("mergeSort([73]) →", mergeSort([73])); // [73]
+console.log("mergeSort([1, 2, 3, 4, 5]) →", mergeSort([1, 2, 3, 4, 5])); // [1, 2, 3, 4, 5]
+console.log("mergeSort([3, 2, 1, 13, 8, 5, 0, 1]) →", mergeSort([3, 2, 1, 13, 8, 5, 0, 1])); // [0, 1, 1, 2, 3, 5, 8, 13]
+console.log("mergeSort([105, 79, 100, 110]) →", mergeSort([105, 79, 100, 110])); // [79, 100, 105, 110]
