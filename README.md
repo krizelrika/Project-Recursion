@@ -5,10 +5,32 @@ You’ll implement and test both **Fibonacci sequence** generators and a **recur
 
 ---
 
-## ⚙️ Implementations
+## Fibonacci
+
+### ⚙️ Implementations
 - ➤ fibs(n) — Iterative
     Uses a simple loop to build the Fibonacci sequence step by step.
 
 - ➤ fibsRec(n) — Recursive
     Solves the same problem recursively.
     A console.log("This was printed recursively"); line is added at the start of the function to visualize recursion depth.
+
+## Merge Sort
+### 🎯 Goal
+    Write a recursive mergeSort() function that sorts an array in ascending order using the merge sort algorithm.
+### 💡 Key Idea
+- Base Case: Arrays with 0 or 1 elements are already sorted.
+- Recursive Case: Split the array into halves, sort each half recursively, and merge the results.
+
+## 🧠 Concepts Practiced
+- Recursion and base cases
+- Iteration vs recursion
+- Divide and conquer
+- Array slicing and merging
+- Tracing recursive calls with console output
+
+## 🪄 Developer Notes
+
+Created for learning and practicing recursion and algorithmic thinking in JavaScript.
+Project and Lesson from The Odin Project
+Happy coding! 🚀
